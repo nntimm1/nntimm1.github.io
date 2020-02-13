@@ -1,0 +1,87 @@
+html{
+    font: 16px;
+  }
+.navbar{
+    background: lightskyblue !important;
+
+  }
+.navbar-brand{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+  }
+.nav-link{
+
+    font-size: 1.2rem;
+  }
+
+.hero{
+    background: url("./Images/CitySkylineHeader.jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.body {
+    background-color: lightblue;
+  }
+.bodyImg {
+    background-image: url("bgdesert.jpg");
+  }
+.pround2 {
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+.column {
+    float: left;
+    width: 50%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+.column {
+      width: 100%;
+    }
+}
+.body {
+    color: whitesmoke;
+    text-align: left;
+  }
+  
+.h1 {
+    color: lightskyblue;
+    text-align: center;
+    font-size: xx-large;
+  }
+.h2{color: lightskyblue;
+    text-align: center;
+}
+.bodyText {
+    color: lightskyblue;
+    text-align: justify;
+    border-radius: 8px;
+}
+.position{
+    align-content: center;
+}
+.h3{color: lightskyblue;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    font-stretch: semi-expanded;
+
+}
+.imageAlign {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
