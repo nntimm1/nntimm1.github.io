@@ -85,3 +85,41 @@ html{
     margin-left: auto;
     margin-right: auto;
 }
+.pone {
+  border-style: solid;
+  border-width: 5px;
+}
+
+.ptwo {
+  border-style: solid;
+  border-width: medium;
+}
+
+.pthree {
+  border-style: solid;
+  border-width: 2px 10px 4px 20px;
+}
+.spifDiv {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+.lineSmall {
+  line-height: 0.8;
+}
+
+.lineBig {
+  line-height: 1.8;
+}
