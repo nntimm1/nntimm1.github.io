@@ -123,3 +123,25 @@ html{
 .lineBig {
   line-height: 1.8;
 }
+.gallery {
+  align-content: center;
+  margin: auto;
+  border: 1px solid #ccc;
+  float: left;
+  width: 24%;
+  height: 25%;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: auto;
+  height: auto;
+}
+
+.desc {
+  padding: 10px;
+  text-align: center;
+}
